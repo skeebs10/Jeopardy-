@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 export default function Jeopardy(props) {
 	const [answer, setAnswer] = useState('');
 	const [toggle, setToggle] = useState(false);
-	const [question, setQuestion] = useState('');
+	// const [question, setQuestion] = useState('');
 	const toggleAnswer = () => {
 		toggle ? setToggle(false) : setToggle(true);
 	};
-	const nextQuestion = () => {
-		setQuestion();
-	};
+	// const nextQuestion = () => {
+	// 	setQuestion();
 
 	return (
 		<div>
@@ -19,8 +18,8 @@ export default function Jeopardy(props) {
 			<div className={toggle ? 'answer' : 'no-answer'}>
 				<h2>Answer: {props.questions[0].answer.toUpperCase()}</h2>
 			</div>
-			<button onClick={getData}>Next Question</button>
-			<h2>Question: {question}</h2>
+			{/* <button onClick={getData}>Next Question</button> */}
+			{/* <h2>Question: {question}</h2> */}
 		</div>
 	);
 }
