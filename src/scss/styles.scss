@@ -3,9 +3,17 @@
 
 body {
   text-align: center;
+  background-color: lightblue;
+  color: white;
   
   .no-answer {
   display: none;
 }
+h1 {
+  font-size: 40px;
 
+}
+h2 {
+  color: lightyellow;
+}
 }
