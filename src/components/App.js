@@ -20,7 +20,7 @@ export default function App() {
 	return (
 		<div>
 			<div>
-				<h1>Let's Play Jeopardy</h1>
+				<h1>JEOPARDY</h1>
 				<Counter questions={questions} />
 			</div>
 
